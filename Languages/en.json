@@ -1,0 +1,17 @@
+{
+  "PLAYING": "🎶 Playing...",
+  "ERROR": "❌ Something went wrong",
+  "JOIN_VOICE": "❌ Join a voice channel first",
+  "NO_RESULTS": "❌ No results found",
+  "STOP": "⛔ Stopped",
+  "SKIP": "⏭️ Skipped",
+  "QUEUE_EMPTY": "❌ Queue is empty",
+  "NOW_PLAYING": "🎶 Now Playing",
+  "SEARCH_RESULTS": "🔎 Search Results",
+  "SETUP_TITLE": "⚙️ Setup Panel",
+  "CREATE_CHANNEL": "🎧 Create Music Channel",
+  "VOICE_247": "🔊 24/7 Voice Mode",
+  "CHOOSE": "Choose an option",
+  "QUEUE_TITLE": "🎶 Music Queue",
+  "SUCCESS": "✅ Done successfully"
+}
