@@ -1,8 +1,13 @@
-
 module.exports = {
   name: "stop",
   run: async (client, interaction) => {
-    client.distube.stop(interaction);
-    interaction.reply("Stopped");
+
+    try {
+      client.distube.stop(interaction.guildId);
+      interaction.reply(client.lang.STOP);
+    } catch {
+      interaction.reply(client.lang.ERROR);
+    }
+
   }
 };
