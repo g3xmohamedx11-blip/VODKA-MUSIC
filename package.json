@@ -1,6 +1,5 @@
-
 {
-  "name": "music-bot-pro",
+  "name": "music-bot",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
@@ -9,6 +8,6 @@
     "@distube/youtube": "^1.0.0",
     "@discordjs/voice": "^0.16.0",
     "ffmpeg-static": "^5.0.0",
-    "mongoose": "^8.0.0"
+    "yt-search": "^2.10.0"
   }
 }
