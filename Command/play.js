@@ -3,7 +3,7 @@ module.exports = {
   run: async (client, interaction) => {
 
     const vc = interaction.member.voice.channel;
-    if (!vc) return interaction.reply({ content: "❌ ادخل فويس", ephemeral: true });
+    if (!vc) return interaction.reply(client.lang.JOIN_VOICE);
 
     await interaction.deferReply();
 
@@ -17,11 +17,10 @@ module.exports = {
         }
       );
 
-      interaction.editReply("🎶 جاري التشغيل...");
+      interaction.editReply(client.lang.PLAYING);
     } catch (e) {
       console.error(e);
-      interaction.editReply("❌ حصل خطأ");
+      interaction.editReply(client.lang.ERROR);
     }
-
   }
 };
