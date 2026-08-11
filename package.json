@@ -1,0 +1,14 @@
+
+{
+  "name": "music-bot-pro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "distube": "^4.0.0",
+    "@distube/youtube": "^1.0.0",
+    "@discordjs/voice": "^0.16.0",
+    "ffmpeg-static": "^5.0.0",
+    "mongoose": "^8.0.0"
+  }
+}
