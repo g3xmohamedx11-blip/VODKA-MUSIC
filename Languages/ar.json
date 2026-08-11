@@ -6,12 +6,5 @@
   "STOP": "⛔ تم الإيقاف",
   "SKIP": "⏭️ تم التخطي",
   "QUEUE_EMPTY": "❌ مفيش أغاني",
-  "NOW_PLAYING": "🎶 جاري تشغيل",
-  "SEARCH_RESULTS": "🔎 نتائج البحث",
-  "SETUP_TITLE": "⚙️ لوحة الإعدادات",
-  "CREATE_CHANNEL": "🎧 إنشاء روم ميوزك",
-  "VOICE_247": "🔊 تشغيل 24/7",
-  "CHOOSE": "اختار",
-  "QUEUE_TITLE": "🎶 قائمة التشغيل",
-  "SUCCESS": "✅ تم بنجاح"
+  "QUEUE_TITLE": "🎶 قائمة التشغيل"
 }
